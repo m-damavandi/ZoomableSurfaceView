@@ -5,11 +5,10 @@ import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.SurfaceHolder;
-import android.view.SurfaceView;
 
 public class MainActivity extends AppCompatActivity implements SurfaceHolder.Callback {
 
-    SurfaceView surfaceView;
+    ZoomableSurfaceView surfaceView;
     private MediaPlayer mediaPlayer;
     String path = "http://www.sample-videos.com/video/mp4/240/big_buck_bunny_240p_10mb.mp4";
 
@@ -18,7 +17,7 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        surfaceView = (SurfaceView) findViewById(R.id.surfaceView);
+        surfaceView = (ZoomableSurfaceView) findViewById(R.id.surfaceView);
         surfaceView.getHolder().addCallback(this);
     }
 
