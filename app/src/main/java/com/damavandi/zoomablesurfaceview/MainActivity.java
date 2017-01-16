@@ -10,7 +10,8 @@ public class MainActivity extends AppCompatActivity implements SurfaceHolder.Cal
 
     ZoomableSurfaceView surfaceView;
     private MediaPlayer mediaPlayer;
-    String path = "http://www.sample-videos.com/video/mp4/240/big_buck_bunny_240p_10mb.mp4";
+//    String path = "http://www.sample-videos.com/video/mp4/240/big_buck_bunny_240p_10mb.mp4";
+    String path = "http://192.168.1.203/note5.mp4";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
