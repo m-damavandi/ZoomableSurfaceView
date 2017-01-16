@@ -1,21 +1,14 @@
 package com.damavandi.zoomablesurfaceview;
 
-import android.app.Activity;
 import android.content.Context;
-import android.graphics.Matrix;
-import android.graphics.PointF;
 import android.util.AttributeSet;
-import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.SurfaceView;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 /**
  * Created by arch on 1/16/17.
